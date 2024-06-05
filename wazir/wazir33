@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class wazir2 {
+
+	public static void main(String[] args) {
+		int a,b,c,d,e,f,g;
+		System.out.println("Enter any two Numbers: ");
+		
+		
+		Scanner wazir=new Scanner(System.in);
+		
+		a=wazir.nextInt();
+		b=wazir.nextInt();
+		
+		c=a+b;
+		System.out.println("Sum of Two Numbers: "+c);
+		d=a*b;
+		System.out.println("Multiply of Two Numbers: "+d);
+		e=a/b;
+		System.out.println("Divide of Two Numbers: "+e);
+		f=a-b;
+		System.out.println("Subtract of Two Numbers: "+f);
+		g=a%b;
+		System.out.println("Mod of Two Numbers: "+g);
+		
+
+	}
+
+}
